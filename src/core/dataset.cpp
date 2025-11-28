@@ -32,7 +32,7 @@ Dataset::Dataset(const VectorXd& x, const VectorXd& y)
 
 Dataset::Dataset(const VectorXd& x, const VectorXd& y, const VectorXd& weights)
     : m_x(x)
-    , m_y(y)
+    , m_y(y)s
     , m_weights(weights)
     , m_num_points(x.size())
     , m_has_weights(true) {
